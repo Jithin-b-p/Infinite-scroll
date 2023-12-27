@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite scroll</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <!-- title -->
+  <h1>Unsplash API - Infinite Scroll</h1>
+
+  <!-- loader -->
+  <!-- as we use hidden attribute to hide the element so dont use display flex in centering the loader hidden use display none so this get overriden by display flex. -->
+  <div class="loader" id="loader" hidden>
+    <img src="./assets/loader.svg" alt="loader">
+  </div>
+
+  <!-- image container -->
+  <div class="image-container" id="image-container">
+    <img src="https://images.unsplash.com/photo-1703426108384-f5f3f45de1aa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img src="https://images.unsplash.com/photo-1703426108384-f5f3f45de1aa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <img src="https://images.unsplash.com/photo-1703426108384-f5f3f45de1aa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+  </div>
+  <!-- script -->
+  <script src="./script.js"></script>
+</body>
+</html>
